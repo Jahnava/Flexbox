@@ -5,15 +5,31 @@ html,body{
     height: 100%;
 }
 
+/* nav & title */
 h1, .nav-pills>li>a {
   color: #264653;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 }
-h3 {
-  color:#2A9D8F;
-  text-transform: uppercase;
+
+.title {
+  background-image: url('/images/stars.gif');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 80px;
+     height: 10%;
+     font-family: 'Pacifico', cursive;
+     color: white;
+     text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
+
+.header {
+  font-family: 'Pacifico', cursive;
+}
+
 .nav-pills>li{
   background:#E76F51;
 
@@ -24,19 +40,21 @@ h3 {
 .nav-pills>li>a{
   color: #264653;
 }
-/*COLUMNS WITH THE EQUAL HEIGHT*/
+/*COLUMNS WITH THE EQUAL HEIGHT (stories border)*/
 .container-flex, .container-order,.flex-center-center{
   display:flex;
   flex-direction: row;
   align-items: stretch;
   with: 100%;
-  background: #F4A261;
+  background: black;
   justify-content: space-around;
   padding: 2rem;
 }
+
+/* stories background */
 .box {
   width:25%;
-  background:#E76F51;
+  background:silver;
   padding: 1rem;
   border: 1rem dashed #E9C46A;
 }
@@ -71,17 +89,16 @@ h3 {
   width: 33%;
   font-weight: bold;
   font-size: 5rem;
-text-transform: uppercase;
   color: #264653;
 }
 
-/*responsive grig*/
+/*responsive grig (stories)*/
 .responsive > .box {
   font-weight: bold;
   font-size: 5rem;
-  text-transform: uppercase;
-  color: #264653;
-border: 1rem solid #E9C46A;
+  /* text-transform: uppercase; */
+  color: purple;
+border: 1rem solid white;
 }
 .col-1{
 	flex: 1;
@@ -124,4 +141,134 @@ border: 1rem solid #E9C46A;
   text-transform: uppercase;
   color: #264653;
 background:  #2A9D8F;
+}
+
+
+/* p1 */
+#p1 { background-image: url('/images/flowerpiano-noName.jpg');
+background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 00px;
+   height: 100%;
+}
+
+.metStory{
+  text-shadow: 1px 1px 20px rgba(0, 16, 101, 1);
+}
+
+.storyTitle{
+  text-decoration:underline;
+  text-shadow: 1px 1px 20px rgba(0, 16, 101, 1);
+  font-weight: bold;
+}
+
+/* #stars{
+  height: 20px;
+  width:100%;
+  background-image: url('/images/stars.gif');
+} */
+
+/* #stringLights{
+  background-image: url('/images/lights.png');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+  height:10px;
+  width:100%;
+} */
+
+
+/* .scrollTitle{
+  background-image: url('/images/piano-text.jpg');
+text-shadow: 0px 0px 14px rgba(0, 16, 37, 1);
+color: white;
+} */
+
+/*scroll box wedding*/
+/* .scrollArea {
+max-width: 520px;
+max-height: 350px;
+margin-top: 85px;
+padding-left: 5px;
+padding-right: 5px;
+border-color: #fff;
+border-width: 1px;
+border-style: solid;
+float: left;
+overflow-y: scroll;
+text-align: center;
+margin-left: -30px;
+-webkit-box-shadow: inset -8px -24px 300px 78px rgba(0,0,0,0.83);
+-moz-box-shadow: inset -8px -24px 300px 78px rgba(0,0,0,0.83);
+box-shadow: inset -8px -24px 300px 78px rgba(0,0,0,0.83);
+
+} */
+
+/* ::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background: rgba(255,255,255,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+ */
+
+iframe {
+  width:520px;
+  height: 360px;
+  text-align: center;
+  margin-left: -30px;
+  margin-right: 500%;
+  float: left;
+
+}
+
+h2, h3, h4 {
+	color: white;
+}
+
+#piano-name {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#header-pic {
+  background-image: url('/images/flowerpiano-noName.jpg');
+  background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+  height:100%;
+  width:100%;
+}
+
+#rainbow-springs {
+  border-radius: 55px;
+  -webkit-box-shadow: 2px 2px 34px 8px rgba(74,4,74,1);
+-moz-box-shadow: 2px 2px 34px 8px rgba(74,4,74,1);
+box-shadow: 2px 2px 34px 8px rgba(74,4,74,1);
+}
+
+h1,  {
+	font-family: "Brush Script MT", cursive;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30.8px;
 }
