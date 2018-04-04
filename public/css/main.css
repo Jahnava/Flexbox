@@ -1,14 +1,22 @@
-
-
 /*cutsom styling*/
 html,body{
     height: 100%;
 }
 
+/* #p1 { background-image: url('/images/flowerpiano-noName.jpg');
+background-image: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 00px;
+  height: 100%;
+  border: 1px solid blue;
+} */
+
 /* nav & title */
 h1, .nav-pills>li>a {
   color: #264653;
-  /* text-transform: uppercase; */
   font-weight: bold;
 }
 
@@ -30,8 +38,10 @@ h1, .nav-pills>li>a {
   font-family: 'Pacifico', cursive;
 }
 
+/* nav bar */
 .nav-pills>li{
-  background:#E76F51;
+  background:silver;
+  border: 1px solid blue;
 
 }
 .nav-pills>li.active>a{
@@ -59,24 +69,38 @@ h1, .nav-pills>li>a {
   border: 1rem dashed #E9C46A;
 }
 
-/*order */
+/*order wedding party*/
+.wedding-party {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background:silver;
+  padding: 1rem;
+  border: 1px solid blue;
+}
+
 .container-order > .box{
   border: 1rem dashed #E76F51;
   font-size: 4rem;
   font-weight: bold;
 }
+.pink{
+  order: 4;
+  background-image: url("https://loremflickr.com/320/240");
+}
 .blue{
    order: 3;
-   background: #264653;
+   background-image: url("https://loremflickr.com/320/240");
 }
 .breeze {
     order: 2;
-    background:#2A9D8F;
+    background-image: url("https://loremflickr.com/320/240");
 }
 .yellow{
   order: 1;
-  background: #E9C46A;
+  background-image: url("https://loremflickr.com/320/240");
 }
+
 
 /*Horizontal and vertical alignment*/
 .flex-center-center{
@@ -96,7 +120,6 @@ h1, .nav-pills>li>a {
 .responsive > .box {
   font-weight: bold;
   font-size: 5rem;
-  /* text-transform: uppercase; */
   color: purple;
 border: 1rem solid white;
 }
@@ -144,16 +167,7 @@ background:  #2A9D8F;
 }
 
 
-/* p1 */
-#p1 { background-image: url('/images/flowerpiano-noName.jpg');
-background-image: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 00px;
-   height: 100%;
-}
+
 
 .metStory{
   text-shadow: 1px 1px 20px rgba(0, 16, 101, 1);
@@ -226,7 +240,7 @@ box-shadow: inset -8px -24px 300px 78px rgba(0,0,0,0.83);
 }
  */
 
-iframe {
+/* iframe {
   width:520px;
   height: 360px;
   text-align: center;
@@ -234,7 +248,9 @@ iframe {
   margin-right: 500%;
   float: left;
 
-}
+} */
+
+
 
 h2, h3, h4 {
 	color: white;
@@ -253,8 +269,9 @@ h2, h3, h4 {
     -o-background-size: cover;
     background-size: cover;
     min-height: 500px;
-  height:100%;
-  width:100%;
+    height:100%;
+    width:100%;
+    border: 2px solid black;
 }
 
 #rainbow-springs {
@@ -265,6 +282,16 @@ box-shadow: 2px 2px 34px 8px rgba(74,4,74,1);
 }
 
 h1,  {
+	font-family: "Brush Script MT", cursive;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30.8px;
+}
+
+
+.testID  {
 	font-family: "Brush Script MT", cursive;
 	font-size: 28px;
 	font-style: normal;

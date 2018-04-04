@@ -1,10 +1,3 @@
-/**
- * RESPONSIVE NAV JS
- * http://jsfiddle.net/csswizardry/ev598/
- * http://jsfiddle.net/shanomurphy/zp376/
- * =================
-*/
-
 /* The target nav */
 var responsiveNav = document.getElementById('js-responsive-nav');
 
