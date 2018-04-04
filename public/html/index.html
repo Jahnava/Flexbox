@@ -40,7 +40,7 @@
 </div>
 <div id= 'header-pic'class="flex-center-center">
 <!-- <div class="box"> -->
-  <img id='rainbow-springs' src="/images/rainbowSprings.png" alt=""> </div>
+  <img class='responsive' id='rainbow-springs' src="/images/rainbowSprings.png" alt=""> </div>
 <!-- </div> -->
 <!--Responsive Grid with flexbox-->
 <h3 class="text-center header" id="responsive">How We Met</h3>
@@ -72,21 +72,35 @@
 <!-- 2. COLUMNS WITH THE EQUAL HEIGHT -->
 <h3 class="text-center header" id="order">Wedding Party</h3>
 <div class="container-order">
-  <div id='Jayanti' class="blue text-center wedding-party">Jayanti</div>
-  <div class="breeze text-center wedding-party">Yamuna</div>
-  <div class="yellow text-center wedding-party">Chay</div>
-  <div class="pink text-center wedding-party">Amy</div>
+  <div  class="blue text-center wedding-party header">
+    <h4 id='jayanti'>Jayanti</h4>
+  </div>
+  <div class="breeze text-center wedding-party header">
+    <h4 id='yamuna'>Yamuna</h4>
+  </div>
+  <div class="yellow text-center wedding-party header">
+    <h4 id='chay'>Chay</h4>
+  </div>
+  <div class="pink text-center wedding-party header">
+    <h4 id='amy'>Amy</h4>
+  </div>
 </div>
 
 <!--Sticky Footer-->
-<h3 class="text-center header" id="sticky">love</h3>
+<!-- <h3 class="text-center header" id="sticky">love</h3> -->
 <div class="sticky-container">
-<div id='love-video'class="sticky-content text-center">video
+<div class="sticky-content text-center">
+  <div class="video-container" >
+    <iframe id="lovevideo" class='text-center responsive' width="600" height="400"
+     src="https://www.youtube.com/embed/SN9X0Kjki5s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
 </div>
 <div class="sticky-footer text-center">footer</div>
 </div>
 
 </div>
 <script src="/js/app.js" charset="utf-8"></script>
+
   </body>
 </html>
