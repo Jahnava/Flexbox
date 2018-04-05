@@ -6,7 +6,29 @@ html,body{
 /* nav & title */
 h1, .nav-pills>li>a {
   color: #264653;
-  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    color: #264653;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+  }
+}
+
+#main-title {
+  font-size: 50px;
+  padding-top: 5%;
+  cursor: url('/images/heart-small.png'), auto;
 }
 
 .title {
@@ -16,11 +38,13 @@ h1, .nav-pills>li>a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 80px;
      height: 10%;
      font-family: 'Pacifico', cursive;
      color: white;
      text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+     padding-bottom: 15%;
+     font-size: 50px;
+
 }
 
 .header {
@@ -33,9 +57,12 @@ h1, .nav-pills>li>a {
   border: 1px solid blue;
 
 }
+
+/* nav text  */
 .nav-pills>li.active>a{
   background: #F4A261;
 }
+
 .nav-pills>li>a{
   color: #264653;
 }
@@ -44,7 +71,7 @@ h1, .nav-pills>li>a {
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  with: 100%;
+  width: 100%;
   background: black;
   justify-content: space-around;
   padding: 2rem;
@@ -66,6 +93,7 @@ h1, .nav-pills>li>a {
   background:silver;
   padding: 1rem;
   border: 1px solid blue;
+  cursor: url('/images/heart-small.png'), auto;
 }
 
 .container-order > .box{
@@ -78,8 +106,8 @@ h1, .nav-pills>li>a {
   background-image: url("/images/amy.jpg");
   /* background-repeat: no-repeat; */
   background-size:contain;
-
 }
+
 .blue{
    order: 3;
    background-image: url("/images/jayanti.jpg");
@@ -107,6 +135,8 @@ h1, .nav-pills>li>a {
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   font-size: 20px;
   margin-top: 80%;
+  height: auto;
+  width: auto;
 }
 
 #yamuna {
@@ -173,8 +203,8 @@ border: 1rem solid white;
 .sticky-container{
   display:flex;
   flex-direction:column;
-  height: 90vh;
-  with: 100%;
+  max-height: 90vh;
+  max-width: 100%;
   background: #F4A261;
 }
 .sticky-content{
@@ -208,10 +238,6 @@ h2, h3, h4 {
 	color: white;
 }
 
-#piano-name {
-    max-width: 300px;
-    max-height: 200px;
-}
 
 #header-pic {
   background-image: url('/images/flowerpiano-noName.jpg');
@@ -220,10 +246,22 @@ h2, h3, h4 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 500px;
-    height:100%;
-    width:100%;
+    max-height:100%;
+    max-width:100%;
     border: 2px solid black;
+}
+
+@media (max-width: 300px) {
+  #header-pic {
+    background-color: black;
+    background-image: url("/images/piano-cut.png");
+  }
+}
+@media (min-width: 101px) and (max-width: 600px) {
+  #header-pic {
+    background-color: black;
+    background-image:url("/images/piano-cut.png");
+  }
 }
 
 #rainbow-springs {
