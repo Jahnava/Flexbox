@@ -1,0 +1,108 @@
+/*cutsom styling*/
+html,body{
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+display: none;
+}
+
+h1, .nav-pills>li>a {
+  color: #264653;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h3 {
+  color:#2A9D8F;
+  text-transform: uppercase;
+}
+.nav-pills>li{
+  background:lightblue;
+
+}
+.nav-pills>li.active>a{
+  background: #F4A261;
+}
+.nav-pills>li>a{
+  color: #264653;
+}
+
+/*Horizontal and vertical alignment*/
+.flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.flex-center-center > div{
+  width: 33%;
+  font-weight: bold;
+  font-size: 5rem;
+text-transform: uppercase;
+  color: #264653;
+}
+
+/*sticky footer*/
+.sticky-container{
+  display:flex;
+  flex-direction:column;
+  height: 90vh;
+  with: 100%;
+  background: #F4A261;
+}
+.sticky-content{
+  flex: 1 0 auto;
+  font-weight: bold;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #264653;
+  /* border: 1rem dashed #E76F51; */
+}
+
+  /* #married-pic {
+    background-image: url('/images/married4.png');
+    background-image: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      max-height:100%;
+      max-width:100%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border: 10px solid yellow;
+      background-color: yellow;
+  }
+
+  @media (max-width: 1000px) {
+    #married-pic {
+      background-image: url('/images/married4.png');
+      background-image: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        max-height:50%;
+        max-width:100%;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        border: 5px solid yellow;
+        background-color: yellow;
+    }
+  }
+  @media (min-width: 50px) and (max-width: 1000px) {
+    #married-pic {
+      background-image: url('/images/married4.png');
+      background-image: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        max-height:30%;
+        max-width:100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: 5px solid yellow;
+    }
+  } */
